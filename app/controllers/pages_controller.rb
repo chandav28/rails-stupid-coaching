@@ -7,8 +7,8 @@ class PagesController < ApplicationController
 
   def answer
 
-    if params[:question] === "hello"
-    @answer = "I don't care, get dressed and go to work"
+    if params[:question] === "Hello"
+    @answer = "I don't care, get dressed and go to work!"
     elsif params[:question].include?("?")
      @answer = "Silly"
     elsif  params[:question] === "hel"
